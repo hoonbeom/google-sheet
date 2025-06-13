@@ -6,7 +6,7 @@
     "url": "git+https://github.com/hoonbeom/google-sheet.git"
   },
   "name": "google-sheet",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/google-sheet.js",
   "module": "dist/google-sheet.js",
   "exports": {
