@@ -6,7 +6,7 @@
   },
   "name": "google-sheet",
   "version": "1.0.0",
-  "main": "dist/goggle-sheet.js",
+  "main": "dist/google-sheet.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -b"
