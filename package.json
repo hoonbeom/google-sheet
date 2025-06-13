@@ -1,5 +1,6 @@
 {
   "types": "dist/google-sheet.d.ts",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hoonbeom/google-sheet.git"
@@ -7,6 +8,14 @@
   "name": "google-sheet",
   "version": "1.0.1",
   "main": "dist/google-sheet.js",
+  "module": "dist/google-sheet.js",
+  "exports": {
+    ".": {
+      "import": "./dist/google-sheet.js",
+      "require": "./dist/google-sheet.js",
+      "types": "./dist/google-sheet.d.ts"
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -b"
